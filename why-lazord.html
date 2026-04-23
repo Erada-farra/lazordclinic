@@ -141,6 +141,14 @@
         </div>
     </footer>
     <!--  انتهى Footer -->
+        <script src="js/main.js"></script>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.onclick = () => {
+            navLinks.classList.toggle('active');
+        };
 </body>
 
 </html>
